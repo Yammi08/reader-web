@@ -1,0 +1,41 @@
+h1
+{
+    font-size: xx-large;
+    
+}
+header
+{
+    height: 80px;
+    border-radius: 10px;
+    color: #42275a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+}
+
+.container-upload
+{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-item
+{
+    overflow: auto;
+    height: 250px;
+    scroll-behavior: auto;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.container-item video, .container-item img, .container-item h1 
+{
+    width: 250px;
+}
